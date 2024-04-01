@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { decrement, increment, incrementByAmount } from '@trade/store/reducer/counter'
 import style from './index.module.css';
 import Loading from '@trade/components/Loading/index.jsx';
+import { Link } from 'react-router-dom';
 
 const Index = () => {
   const inputEle = useRef(null);
@@ -12,6 +13,7 @@ const Index = () => {
 
   return (
     <>
+      <Link to="/trade/vlist">Vlist</Link> <br />
       <div className={style.body}>
         组件样式
       </div>
