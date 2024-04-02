@@ -15,6 +15,7 @@ const Index = () => {
     <>
       <Link to="/trade/vlist">Vlist</Link> <br />
       <Link to="/trade/intro">intro</Link> <br />
+      <Link to="/trade/mock">mock</Link> <br />
       <div className={style.body}>
         组件样式
       </div>
