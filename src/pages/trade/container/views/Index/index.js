@@ -14,6 +14,7 @@ const Index = () => {
   return (
     <>
       <Link to="/trade/vlist">Vlist</Link> <br />
+      <Link to="/trade/intro">intro</Link> <br />
       <div className={style.body}>
         组件样式
       </div>

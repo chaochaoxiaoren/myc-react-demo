@@ -10,3 +10,8 @@
 react-window
 react-virtualized-auto-sizer
 ```
+
+2. 支持新手引导，页面闪烁提示
+```
+intro.js
+```
