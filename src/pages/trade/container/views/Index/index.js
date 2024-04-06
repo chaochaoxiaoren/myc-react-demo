@@ -8,7 +8,10 @@ import { Link } from 'react-router-dom';
 const Index = () => {
   const inputEle = useRef(null);
 
-  const count = useSelector(state => state.counter.value)
+  const count = useSelector(state => {
+    console.log('state', state);
+    return state.counter.value;
+  })
   const dispatch = useDispatch()
 
   return (

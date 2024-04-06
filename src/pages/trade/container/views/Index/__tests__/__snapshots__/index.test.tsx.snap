@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index 抓取快照 1`] = `
+<body>
+  <div>
+    <a
+      href="/trade/vlist"
+    >
+      Vlist
+    </a>
+     
+    <br />
+    <a
+      href="/trade/intro"
+    >
+      intro
+    </a>
+     
+    <br />
+    <a
+      href="/trade/mock"
+    >
+      mock
+    </a>
+     
+    <br />
+    <a
+      href="/trade/lottie"
+    >
+      lottie
+    </a>
+     
+    <br />
+    <div>
+      组件样式
+    </div>
+    <div>
+      loading
+    </div>
+    1
+    <br />
+    <button>
+      加一
+    </button>
+    <button>
+      减一
+    </button>
+    <br />
+    <input
+      type="number"
+    />
+    <button>
+      加
+    </button>
+  </div>
+</body>
+`;
